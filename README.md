@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,38 +41,43 @@
             color: #1f6feb;
         }
         .profile-photo {
-            width: 200px;
-            height: 200px;
+            width: 220px;
+            height: 220px;
             border-radius: 50%;
             border: 5px solid #58a6ff;
             margin-top: 20px;
         }
         .section {
-            padding: 60px 20px;
+            padding: 80px 20px;
             border-bottom: 1px solid #30363d;
             position: relative;
+            background: rgba(22, 27, 34, 0.85);
+            border-radius: 12px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
         }
         h2 {
             color: #58a6ff;
-            margin-bottom: 15px;
-            font-size: 28px;
+            margin-bottom: 20px;
+            font-size: 30px;
             font-weight: 700;
         }
         .project, .skills-list {
-            max-width: 850px;
-            margin: 25px auto;
-            padding: 25px;
-            background: rgba(22, 27, 34, 0.85);
-            border-radius: 10px;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(34, 40, 49, 0.9);
+            border-radius: 12px;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
             transition: transform 0.3s ease-in-out;
         }
         .project:hover, .skills-list:hover {
-            transform: translateY(-5px);
+            transform: scale(1.05);
         }
         footer {
             background: rgba(22, 27, 34, 0.9);
-            padding: 25px;
+            padding: 30px;
             font-size: 16px;
             color: #8b949e;
         }
